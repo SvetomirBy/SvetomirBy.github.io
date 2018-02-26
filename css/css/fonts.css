@@ -1,7 +1,7 @@
 /*
 Error: File to import not found or unreadable: bourbon/bourbon.
-       Load path: C:/Users/Qwerty/Desktop/Svetomir/css/sass
-        on line 1 of C:\Users\Qwerty\Desktop\Svetomir\css\sass\fonts.sass
+       Load path: C:/Users/Qwerty/Desktop/Svetomir/SvetomirBy.github.io/css/sass
+        on line 1 of C:\Users\Qwerty\Desktop\Svetomir\SvetomirBy.github.io\css\sass\fonts.sass
 
 1: @import "bourbon/bourbon"
 2: +font-face("Raleway", "../fonts/RalewayRegular/RalewayRegular", normal, $file-formats: eot woff ttf)
@@ -10,7 +10,7 @@ Error: File to import not found or unreadable: bourbon/bourbon.
 5: +font-face("Raleway", "../fonts/RalewaySemiBold/RalewaySemiBold", 600, $file-formats: eot woff ttf)
 
 Backtrace:
-C:\Users\Qwerty\Desktop\Svetomir\css\sass\fonts.sass:1
+C:\Users\Qwerty\Desktop\Svetomir\SvetomirBy.github.io\css\sass\fonts.sass:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -48,4 +48,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bourbon/bourbon.\A        Load path: C:/Users/Qwerty/Desktop/Svetomir/css/sass\A         on line 1 of C:\Users\Qwerty\Desktop\Svetomir\css\sass\fonts.sass\A \A 1: @import \"bourbon/bourbon\"\A 2: +font-face(\"Raleway\", \"../fonts/RalewayRegular/RalewayRegular\", normal, $file-formats: eot woff ttf)\A 3: +font-face(\"Raleway\", \"../fonts/RalewayBold/RalewayBold\", 700, $file-formats: eot woff ttf)\A 4: +font-face(\"Raleway\", \"../fonts/RalewayLight/RalewayLight\", 300, $file-formats: eot woff ttf)\A 5: +font-face(\"Raleway\", \"../fonts/RalewaySemiBold/RalewaySemiBold\", 600, $file-formats: eot woff ttf)"; }
+  content: "Error: File to import not found or unreadable: bourbon/bourbon.\A        Load path: C:/Users/Qwerty/Desktop/Svetomir/SvetomirBy.github.io/css/sass\A         on line 1 of C:\Users\Qwerty\Desktop\Svetomir\SvetomirBy.github.io\css\sass\fonts.sass\A \A 1: @import \"bourbon/bourbon\"\A 2: +font-face(\"Raleway\", \"../fonts/RalewayRegular/RalewayRegular\", normal, $file-formats: eot woff ttf)\A 3: +font-face(\"Raleway\", \"../fonts/RalewayBold/RalewayBold\", 700, $file-formats: eot woff ttf)\A 4: +font-face(\"Raleway\", \"../fonts/RalewayLight/RalewayLight\", 300, $file-formats: eot woff ttf)\A 5: +font-face(\"Raleway\", \"../fonts/RalewaySemiBold/RalewaySemiBold\", 600, $file-formats: eot woff ttf)"; }

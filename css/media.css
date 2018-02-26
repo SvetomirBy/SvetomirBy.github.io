@@ -1,54 +1,45 @@
-/*==========  Desktop First Method  ==========*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media screen and (min-width:2000px) {
 
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-    .personal_last_block
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media screen and (min-width:1440px) and (max-width:2000px){
 
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media screen and (min-width:980px) and (max-width:1440px){
 
 }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media screen and (min-width:768px) and (max-width:979px){
 
 }
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
+@media screen and (min-width:640px) and (max-width:768px){
+    .about-us .products .product_item{
+        width: 50%;
+}
+nav{
+    display: none
+}
+}
+@media screen and (min-width:480px) and (max-width:640px){
+    .about-us .products .product_item{
+        width: 50%;
+}
+nav{
+    display: none
+}
+}
+@media screen and (max-width:480px) and (max-width:320px){
+    nav{
+        display: none
+    }
+    .about-us .products .product_item{
+        width: 50%;
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
 }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+@media screen and (max-width:320px){
+    .about-us .products .product_item{
+        width: 50%;
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+nav{
+    display: none
 }
-
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
 }

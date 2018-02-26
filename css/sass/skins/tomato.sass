@@ -31,12 +31,12 @@ nav
 
 	+kerning(4)
 	color: $text_light
-	border-bottom: 4px solid $color
 	background: linear-gradient(to left, transparent 10%, rgba(0, 0, 0, 0.42), transparent)
 
 section > h3
 	padding-top: 3rem
 	+kerning(4)
+	border-bottom: 4px solid $color
 
 .about-us
 	background-color: $text_light
@@ -51,11 +51,20 @@ section > h3
 .product_item p
 	background-color: rgba(34, 34, 34, 0.4)
 
+.advantages_item:nth-child(2n)
+	border-left: 2px solid $color
+
+.advantages_item:nth-child(2n-1)
+	border-right: 2px solid $color
+
+
 form span
 	color: $color
 
 .mail-box
-	background-color: red
+	background: url("../../img/wooden.jpg")
+	label
+		color: $text_light
 
 .main_footer
 	color: $text_light
@@ -63,6 +72,7 @@ form span
 
 .btn
 	background-color: $main_color
+	color: $text_light
 	&:hover
 		background-color: $bg_light
 		color: $main_color

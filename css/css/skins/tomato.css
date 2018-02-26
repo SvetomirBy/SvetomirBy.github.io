@@ -1,52 +1,63 @@
-/*
-Error: File to import not found or unreadable: ../bourbon/bourbon.
-       Load path: C:/Users/Qwerty/Desktop/Svetomir/css/sass/skins
-        on line 1 of C:\Users\Qwerty\Desktop\Svetomir\css\sass\skins\tomato.sass
+body {
+  color: #222;
+  letter-spacing: 1px; }
 
-1: @import "../bourbon/bourbon"
-2: 
-3: $color: #FF6347 //Theme skin
-4: $text_color: #888
-5: $main_color: #222
-6: $bg_light: #FAFAFA
+a {
+  color: #FAFAFA; }
 
-Backtrace:
-C:\Users\Qwerty\Desktop\Svetomir\css\sass\skins\tomato.sass:1
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../bourbon/bourbon.\A        Load path: C:/Users/Qwerty/Desktop/Svetomir/css/sass/skins\A         on line 1 of C:\Users\Qwerty\Desktop\Svetomir\css\sass\skins\tomato.sass\A \A 1: @import \"../bourbon/bourbon\"\A 2: \A 3: $color: #FF6347 //Theme skin\A 4: $text_color: #888\A 5: $main_color: #222\A 6: $bg_light: #FAFAFA"; }
+nav {
+  background-color: #222; }
+
+.menu_item:hover,
+.sub-menu_item:hover {
+  color: #e4352a; }
+
+.sub-menu_item {
+  color: #888;
+  background-color: #FAFAFA; }
+
+.top_text > h1 {
+  letter-spacing: 4px;
+  color: #FAFAFA;
+  background: linear-gradient(to left, transparent 10%, rgba(0, 0, 0, 0.42), transparent); }
+
+section > h3 {
+  padding-top: 3rem;
+  letter-spacing: 4px;
+  border-bottom: 4px solid #e4352a; }
+
+.about-us {
+  background-color: #FAFAFA; }
+
+.poducts {
+  background-color: #222; }
+
+.product_item p {
+  background-color: rgba(34, 34, 34, 0.4); }
+
+.advantages_item:nth-child(2n) {
+  border-left: 2px solid #e4352a; }
+
+.advantages_item:nth-child(2n-1) {
+  border-right: 2px solid #e4352a; }
+
+form span {
+  color: #e4352a; }
+
+.mail-box {
+  background: url("../../img/wooden.jpg"); }
+  .mail-box label {
+    color: #FAFAFA; }
+
+.main_footer {
+  color: #FAFAFA;
+  background-color: #222; }
+
+.btn {
+  background-color: #222;
+  color: #FAFAFA; }
+  .btn:hover {
+    background-color: #FAFAFA;
+    color: #222; }
+
+/*# sourceMappingURL=tomato.css.map */

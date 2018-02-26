@@ -19,12 +19,12 @@ nav {
 .top_text > h1 {
   letter-spacing: 4px;
   color: #FAFAFA;
-  border-bottom: 4px solid #e4352a;
   background: linear-gradient(to left, transparent 10%, rgba(0, 0, 0, 0.42), transparent); }
 
 section > h3 {
   padding-top: 3rem;
-  letter-spacing: 4px; }
+  letter-spacing: 4px;
+  border-bottom: 4px solid #e4352a; }
 
 .about-us {
   background-color: #FAFAFA; }
@@ -35,18 +35,27 @@ section > h3 {
 .product_item p {
   background-color: rgba(34, 34, 34, 0.4); }
 
+.advantages_item:nth-child(2n) {
+  border-left: 2px solid #e4352a; }
+
+.advantages_item:nth-child(2n-1) {
+  border-right: 2px solid #e4352a; }
+
 form span {
   color: #e4352a; }
 
 .mail-box {
-  background-color: red; }
+  background: url("../../img/wooden.jpg"); }
+  .mail-box label {
+    color: #FAFAFA; }
 
 .main_footer {
   color: #FAFAFA;
   background-color: #222; }
 
 .btn {
-  background-color: #222; }
+  background-color: #222;
+  color: #FAFAFA; }
   .btn:hover {
     background-color: #FAFAFA;
     color: #222; }
